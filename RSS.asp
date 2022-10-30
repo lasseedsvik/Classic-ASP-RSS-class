@@ -145,7 +145,7 @@
 	
 	End Class 
 	
-	' Class CRSSItem
+	' Class RSSItem
 	Class RSSItem
 		Public Title
 		Public Description
