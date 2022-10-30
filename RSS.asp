@@ -43,9 +43,6 @@
             Set doc = CreateObject("MSXML2.DOMDocument")
             doc.LoadXML(ResponseXML)
 
-            Set doc = CreateObject("MSXML2.DOMDocument")
-            doc.LoadXML(ResponseXML)
-
             Set channelNode = doc.GetElementsByTagName("channel")            
             Set chanitem = channelNode(0)
             
