@@ -106,7 +106,6 @@
 
                 If Err.Number <> 0 Then ShowError()
             End Sub
-
     End Class 
 
     ' Class RSSChannel
