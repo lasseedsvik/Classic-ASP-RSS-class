@@ -43,12 +43,6 @@
             Set doc = CreateObject("MSXML2.DOMDocument")
             doc.LoadXML(ResponseXML)
 
-           ' Read channel info
-            Set channel_ = New RSSChannel
-            channel_.Title = channelNode.SelectSingleNode("title").Text
-            channel_.Description = channelNode.SelectSingleNode("description").Text
-            channel_.Link = channelNode.SelectSingleNode("link").Text
-
             Set doc = CreateObject("MSXML2.DOMDocument")
             doc.LoadXML(ResponseXML)
 
