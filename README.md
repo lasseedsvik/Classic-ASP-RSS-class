@@ -30,16 +30,16 @@
 	' Loop through items
 		Dim lnk        
 		For Each lnk in chn.Items
-	    Response.Write("<p>" & vbCrlf)            
-	    Response.Write("<strong>" & vbCrlf)
-	    Response.Write("<a href=""" & lnk.Link & """ target=""_blank"">" & vbCrlf)
-	    Response.Write(lnk.Title & vbCrlf)
-	    Response.Write("</a> " & vbCrlf)    
-	    Response.Write("</strong>" & vbCrlf)
-	    Response.Write(lnk.PubDate & vbCrlf)
-	    Response.Write("</p>" & vbCrlf)
-	    Response.Write("<p>" & vbCrlf & lnk.Description & "</p>" & vbCrlf)
-	    Response.Write("<hr>" & vbCrlf)
+		    Response.Write("<p>" & vbCrlf)            
+		    Response.Write("<strong>" & vbCrlf)
+		    Response.Write("<a href=""" & lnk.Link & """ target=""_blank"">" & vbCrlf)
+		    Response.Write(lnk.Title & vbCrlf)
+		    Response.Write("</a> " & vbCrlf)    
+		    Response.Write("</strong>" & vbCrlf)
+		    Response.Write(lnk.PubDate & vbCrlf)
+		    Response.Write("</p>" & vbCrlf)
+		    Response.Write("<p>" & vbCrlf & lnk.Description & "</p>" & vbCrlf)
+		    Response.Write("<hr>" & vbCrlf)
 		Next		
 		Set objRSS = Nothing
 	Else
