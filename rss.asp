@@ -18,9 +18,9 @@
 			Set m_channel = Nothing
 		End Sub
 		
-		public Property Get Url
-			Url = m_url
-		End Property
+        public Property Get Url
+            Url = m_url
+        End Property
 
         public Property Get Limit 
             Limit = m_limit
